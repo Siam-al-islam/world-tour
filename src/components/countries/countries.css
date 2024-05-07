@@ -7,3 +7,11 @@
 .visited {
     background-color: rgb(0, 113, 47);
 }
+
+.visited-country-wrapper {
+    display: flex;
+}
+
+.visited-country-wrapper .image {
+    width: 100px;
+}
