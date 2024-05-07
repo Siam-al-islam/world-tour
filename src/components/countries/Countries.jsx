@@ -39,7 +39,7 @@ const Countries = () => {
                     </div>
                     <div className="flag-wrapper">
                         {
-                            visitedFlags.map(flag => <img className="image" src={flag}></img>)
+                            visitedFlags.map((flag, idx) => <img key={idx} className="image" src={flag}></img>)
                         }
                     </div>
                 </div>

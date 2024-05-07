@@ -10,8 +10,10 @@
 
 .visited-country-wrapper {
     display: flex;
+    gap: 16px;
 }
 
 .visited-country-wrapper .image {
     width: 100px;
+    height: 50px;
 }

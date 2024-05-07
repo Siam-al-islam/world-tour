@@ -19,7 +19,7 @@ const Country = ({ country, handleVisitedCountry, handleVisitedFlags }) => {
             <p>Population: {population}</p>
             <p><small>Code: {cca3}</small></p>
             <div className='button-wrapper'>
-                <button onClick={() => { handleVisitedCountry(country); handleVisitedFlags(country.flags.png); }}>Mark As Visited</button>
+                <button onClick={() => { handleVisitedCountry(country); handleVisitedFlags(country.flags.png); }}>Mark as Visited</button>
                 <button onClick={handleVisited}>{visited ? "Not visited?" : "Visited"}</button>
             </div>
         </div >
